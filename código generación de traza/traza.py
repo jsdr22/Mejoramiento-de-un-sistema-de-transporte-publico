@@ -181,9 +181,6 @@ tiempo_minimo = min(tiempos_lagos_teo[0], tiempos_127_teo[0])
 tiempo_maximo = max(tiempos_lagos_teo[-1], tiempos_127_teo[-1])
 
 # Asegúrate de llamar a la función después de graficar la traza teórica
-
-
-# ... código existente ...
 plt.figure(figsize=(14, 10))
 # Graficar la traza teórica
 # Llama a la función con un grosor de línea específico
